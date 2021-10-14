@@ -1,0 +1,2 @@
+# HospitalManagement
+A Desktop Application
