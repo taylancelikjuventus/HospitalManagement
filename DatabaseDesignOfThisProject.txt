@@ -1,0 +1,33 @@
+﻿MSSQL is used throughout this project.
+Project has only following tables.
+
+**************************************
+create table AddPatient(
+
+patientID bigint not null identity(1,1) primary key,
+pat_name varchar(150) not null,
+contact bigint,
+age int,
+gender varchar(25) not null,
+blood_group varchar(25),
+major_disease varchar(500),
+created_date datetime Default(getdate())  //this will automatically generate Date when data inserted
+
+);
+
+*********************************
+create Table AddDiagnosis(
+
+patientID int,
+symptoms varchar(250),
+diagnosis varchar(250),
+medicines varchar(250),
+ward_req varchar(20),
+ward_type varchar(20),
+ward_building varchar(50),
+ward_room varchar(20)
+
+);
+
+
+*************

@@ -1,0 +1,24 @@
+﻿- MSSQL DB is used for this project
+
+- Gui has login only for admin
+
+- Username : admin , Password : admin
+
+- Check DatabaseDesignOfThisProject.txt file adn import file inside database folder.
+
+- Admin has a simple dashboard to control all possible interactions.
+
+- Add New Patient : This tab generates and id for new patient and has a form to be filled.
+                    After Save clicked record will be inserted in given database.
+- Add diagnosis : This tab offers a form for diagnosis of  registered patient's illness.                    
+                  It has search button to confirm the validity of patient number.If there is
+                  such a patient it is listed in the table over the gray box.
+                  This tab has  a form and if form is filled and save is clicked
+                  record will be inserted in database.
+ 
+- Full History Of Patients : This tab just returns all information about treated patients from
+                             database.
+
+ 
+
+                    
